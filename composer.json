@@ -1,0 +1,22 @@
+{
+    "name": "thebbapp/content-source-wordpress",
+    "description": "WordPress content source implementation for BbApp.",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "BbApp\\ContentSource\\WordPress\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.24",
+        "thebbapp/content-source-wordpress-base": "0.1.0",
+        "thebbapp/rest-api-wordpress": "0.1.0"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://thebbapp.com/donate"
+        }
+    ]
+}
